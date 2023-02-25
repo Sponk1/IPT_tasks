@@ -80,11 +80,11 @@ int main()
 	{
 		if (tr_ar.intersection(mas_radius[i].get_radius(), mas_x[i].get_x(), mas_y[i].get_y(), rad, x_c, y_c) == 1)
 		{
-			cout << "Another cicle itersects circle №" << i + 1 << endl;
+			cout << "Another circle itersects circle №" << i + 1 << endl;
 		}
 		else
 		{
-			cout << "Another doesn't cicle itersect circle №" << i + 1 << endl;
+			cout << "Another circle doesn't itersect circle №" << i + 1 << endl;
 		}
 	}
 }
